@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM xmldata WHERE contributor_ip IS NOT NULL ORDER BY page_id ;

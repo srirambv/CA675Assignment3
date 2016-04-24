@@ -1,0 +1,1 @@
+SELECT post_id,COUNT(*) FROM (SELECT * FROM xmldata WHERE contributor_name IS NULL AND contributor_id IS NULL AND contributor_ip IS NOT NULL GROUP BY page_id)a ORDER BY post_id;
